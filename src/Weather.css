@@ -1,7 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
 .Weather {
+  max-width: 565px;
+  margin: 0 auto;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  color: #fff;
+  font-family: "Itim", cursive;
   border: 1px solid grey;
+  border-radius: 6px;
+}
+
+.Form {
+  margin: 7px;
+}
+
+h2 {
+  text-transform: capitalize;
+  margin: 7px;
+}
+
+.Current-date {
+  font-size: 24px;
 }
 
 .main {
-  font-size: 50px;
+  font-size: 40px;
+  margin: 5px;
+}
+
+.Current-weather {
+  font-size: 20px;
+  margin: 7px;
+}
+
+.Temp {
+  margin: 7px;
+  font-size: 20px;
+}
+
+.Search {
+  border-radius: 5px;
+}
+
+.Search-button {
+  background-image: linear-gradient(
+    to top,
+    #d5d4d0 0%,
+    #d5d4d0 1%,
+    #eeeeec 31%,
+    #efeeec 75%,
+    #e9e9e7 100%
+  );
+  border-radius: 5px;
+  margin: 8px;
+}
+
+.Current-button {
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  border-radius: 5px;
+  margin: 8px;
+}
+
+.Wind {
+  margin-top: 15px;
+}
+
+a {
+  color: rgb(68, 18, 161);
+}
+
+footer {
+  max-width: 565px;
+  display: block;
+  margin: 0 auto;
+  font-size: 11px;
 }

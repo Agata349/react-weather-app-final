@@ -5,30 +5,30 @@ export default function Weather() {
     return (
     <div className="Weather">
             <h2>Katowice</h2>
-            <form>
+            <form className="Form">
                <input className="Search" type="search" placeholder="Enter a city" />
-                <input className="SearchButton" type="submit" value="Search" />
-                <input className="CurrentButton" type="submit" value="Current location" /> 
+                <input className="Search-button" type="submit" value="Search" />
+                <input className="Current-button" type="submit" value="Current location" /> 
             </form>
             <div className="row">
       <div className="col">
-        <p className="CurrentWeather">
-          <span className="CurrentDate">Sunday 18:35</span>
+        <p className="Current-weather">
+          <span className="Current-date">Sunday 18:35</span>
           <br />
           <i className="fas fa-cloud main"></i>
         </p>
         <div className="Temp">
       <span className="Description">Cloudy</span> 12
       <a href="/"> °C</a> |{" "}
-      <a href="/" id="fahrenheit">
+      <a href="/">
         °F
       </a>
     </div>
       </div>
       <div className="col">
-        <p className="wind">
-          Humidity: <span id="humidity">80%</span> <br />
-          Wind: <span id="wind">5 km/h</span>
+        <p className="Wind">
+          Humidity: <span id="Humidity">80%</span> <br />
+          Wind: <span id="Wind">5 km/h</span>
         </p>
         </div>
         </div>
