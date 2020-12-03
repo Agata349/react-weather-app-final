@@ -20,7 +20,7 @@ export default function Units(props) {
     return (
         <div className="Current-weather">
             <span className="Description"> {props.description} </span>
-            <strong className="temperature"> {Math.round(props.celsius)} </strong>
+            <strong className="Temperature"> {Math.round(props.celsius)} </strong>
             <span className="Unit">°C</span> <span className="Divider">|</span>{" "}
             <a href="/" className="Unit" onClick={changeToFahrenheit}>
              °F
