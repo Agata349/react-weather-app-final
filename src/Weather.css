@@ -3,8 +3,7 @@
 .Weather {
   max-width: 565px;
   margin: 20px auto 5px;
-  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
-  color: rgb(44, 43, 43);
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
   font-family: "Oswald", sans-serif;
   border: 1px solid grey;
   border-radius: 6px;
@@ -50,7 +49,7 @@ strong {
 }
 
 #Search-button {
-  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  background-image: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
   border: none;
   color: rgb(44, 43, 43);
 }

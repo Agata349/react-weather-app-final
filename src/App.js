@@ -9,7 +9,7 @@ export default function App() {
       <Weather defaultCity="New York"/>
         <footer>
           This project was coded by Agata Piekarczyk and is {""}
-        <a href="https://github.com/Agata349/react-weather-app-final" target="_blank" rel="noreferrer">
+        <a href="/" target="_blank" rel="noreferrer">
           open-sourced on GitHub
         </a>
         </footer>

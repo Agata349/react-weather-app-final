@@ -10,7 +10,7 @@ export default function WeatherData(props) {
       <div className="col">
         <p className="Current-weather">
           <span className="Current-date"> <FormattedDate date={props.data.date}/> </span>
-          <WeatherIcon code={props.data.icon} alt={props.data.description} />
+          <WeatherIcon code={props.data.icon} alt={props.data.description} size={52} />
           <Units celsius={props.data.temperature} description={props.data.description} />
         </p>
       </div>
