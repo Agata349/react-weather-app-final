@@ -1,4 +1,4 @@
-
+var PORT = process.env.PORT || 3001;
 
 import React from 'react';
 import ReactDOM from 'react-dom';
